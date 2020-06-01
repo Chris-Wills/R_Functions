@@ -1,15 +1,11 @@
 Package: WiTools
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: R Functions I'm tired of copy pasting
+Version: 01.0.0
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+    person(given = "Chris",
+           family = "Wills",
+           email = "chriswillsem@gmail.com")
+Description: R Functions I'm tired of copy pasting.
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

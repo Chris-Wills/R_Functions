@@ -4,7 +4,7 @@
 
 #' @export
 
-reverse_ <- function(DNA) {
+reverse_complement <- function(DNA) {
   comp <- list('A','C','T','G')
   names(comp) <- c('T','G','A','C')
   DNA <- data.frame(rev(unlist(strsplit(DNA, ""))))

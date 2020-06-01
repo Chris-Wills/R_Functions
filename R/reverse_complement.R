@@ -4,16 +4,10 @@
 
 #' @export
 
-reverse_complement <- function(DNA) {
-  comp <- c('A','C','T','G')
+reverse_ <- function(DNA) {
+  comp <- list('A','C','T','G')
   names(comp) <- c('T','G','A','C')
   DNA <- data.frame(rev(unlist(strsplit(DNA, ""))))
-  x <- comp[DNA$rev.unlist.strsplit.DNA.......]
-  paste(x, collapse = "")
+  DNA$x <- comp[as.vector(DNA$rev.unlist.strsplit.DNA.......)]
+  paste(DNA$x, collapse = "")
 }
-
-
-
-
-
-

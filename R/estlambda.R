@@ -1,6 +1,8 @@
 #' genomic_lambda
 #'
 #' This function takes a vector of P-values, Z-scores or Chi-squared statistics and estimates the genomic inflation factor
+#' @param data Vector of P-values, Z-scores or Chi-squared statistics
+#' @param input Set the data input type: 'P' - P-values, 'Z' - Z-scores or 'chi' - Chi-squared statistics.
 
 #' @export
 

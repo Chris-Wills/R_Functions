@@ -25,3 +25,6 @@ Converts a vector of Z-scores to P-values, allows adjustment for one sided tests
 ### Reverse Complement
 ```r
 reverse_complement(sequence)
+```
+This function takes a character string of IUPAC coded nucleotides and produces a character string of reverse complement DNA.
+

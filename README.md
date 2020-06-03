@@ -1,5 +1,5 @@
 # WiTools
-A collection of R functions I've written during genomic analyses
+A collection of R functions I've written for genomic analyses
 
 ## Installation
 ``` r

@@ -6,6 +6,11 @@
 \usage{
 genomic_lambda(data, input)
 }
+\arguments{
+\item{data}{Vector of P-values, Z-scores or Chi-squared statistics}
+
+\item{input}{Set the data input type: 'P' - P-values, 'Z' - Z-scores or 'chi' - Chi-squared statistics.}
+}
 \description{
 This function takes a vector of P-values, Z-scores or Chi-squared statistics and estimates the genomic inflation factor
 }

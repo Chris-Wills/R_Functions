@@ -7,6 +7,7 @@
 #' @export
 
 "genomic_lambda" <- function(data, input) {
+  data <- data[!is.na(data)]
   out <- list()
   if (input == "P") {
     data_chi <- qchisq(data, 1, lower.tail=FALSE)
@@ -23,3 +24,10 @@
   }
   out
 }
+
+
+
+
+
+data <- c(1,2,3,NA,4,5,6)
+data <- data[!is.na(data)]

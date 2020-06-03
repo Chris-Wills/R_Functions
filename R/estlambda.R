@@ -24,10 +24,3 @@
   }
   out
 }
-
-
-
-
-
-data <- c(1,2,3,NA,4,5,6)
-data <- data[!is.na(data)]

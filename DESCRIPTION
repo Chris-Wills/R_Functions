@@ -1,6 +1,6 @@
 Package: WiTools
 Title: R Functions I'm tired of copy pasting
-Version: 01.0.0
+Version: 01.0.1
 Authors@R: 
     person(given = "Chris",
            family = "Wills",

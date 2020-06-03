@@ -4,8 +4,13 @@
 \alias{convert.z.score}
 \title{Z-Score to P-value}
 \usage{
-convert.z.score(z, one.sided = NULL)
+convert.z.score(z, one.sided = FALSE)
+}
+\arguments{
+\item{z}{A vector of Z-scores.}
+
+\item{one.sided}{Defaults to two sided test. Set to '+' for one sided test of Z-scores greater than expected, or '-' for less than expected.}
 }
 \description{
-This function takes a vector of Z-scores and produces a vector of P-values
+This function takes a vector of Z-scores and produces a vector of P-values for a one-sided or two-sided test.
 }

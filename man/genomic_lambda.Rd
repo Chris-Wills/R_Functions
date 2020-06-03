@@ -12,5 +12,5 @@ genomic_lambda(data, input)
 \item{input}{Set the data input type: 'P' - P-values, 'Z' - Z-scores or 'chi' - Chi-squared statistics.}
 }
 \description{
-This function takes a vector of P-values, Z-scores or Chi-squared statistics and estimates the genomic inflation factor
+This function takes a vector of P-values, Z-scores or Chi-squared statistics and estimates the genomic inflation factor by converting to a chi-squared statistic and dividing the observed median by the median of a chi-squared distribution on 1df.
 }

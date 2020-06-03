@@ -4,8 +4,11 @@
 \alias{reverse_complement}
 \title{reverse_complement}
 \usage{
-reverse_complement(DNA)
+reverse_complement(sequence)
+}
+\arguments{
+\item{sequence}{A vector of IUPAC coded nucleotides.}
 }
 \description{
-This function takes a character string of DNA and produces a character string of reverse complement DNA
+This function takes a character string of IUPAC coded nucleotides and produces a character string of reverse complement DNA.
 }

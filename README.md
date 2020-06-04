@@ -18,7 +18,7 @@ This function takes a vector of P-values, Z-scores or Chi-squared statistics and
 
 ### Z-score to P-value
 ``` r
-convert.z.score<-function(z, one.sided=NULL)
+convert.z.score(z, one.sided)
 ```
 Converts a vector of Z-scores to P-values, allows adjustment for one sided tests
 

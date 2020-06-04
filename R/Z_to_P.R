@@ -2,7 +2,7 @@
 #'
 #' This function takes a vector of Z-scores and produces a vector of P-values for a one-sided or two-sided test.
 #' @param z A vector of Z-scores.
-#' @param one.sided Defaults to two sided test. Set to '+' for one sided test of Z-scores greater than expected, or '-' for less than expected.
+#' @param one.sided Defaults to two sided test. Set to '+' to test if Z-scores are greater than expected, or '-' for less than expected.
 #'
 
 #' @export
